@@ -39,7 +39,7 @@ The dataset includes 10 continuous measurements (in millimeters) of various bird
 
 The dataset for this project is not included in this repository. You can download it from the following source:  
 
-Bird Bone Measurements Dataset  
+[Birds' Bones and Living Habits Dataset](https://www.kaggle.com/datasets/zhangjuefei/birds-bones-and-living-habits).  
 
 After downloading the dataset:  
 
@@ -49,16 +49,13 @@ Once the ZIP file is downloaded, extract it into your working directory. For exa
 
 **2. Path Configuration:**  
 
-Ensure that the extracted files are accessible in the specified directory. You might need to adjust the file paths in your code if your setup differs. For example, if your dataset is extracted into a directory called data, the path configuration in your code should reflect this structure.
-
-Example file paths might be:  
-
-For the CSV file containing the bird bone measurements:
+Ensure that the extracted files are accessible in the specified directory. You might need to adjust the file paths in your code if your setup differs. For example, if your dataset is extracted into a directory called data, the path configuration in your code should reflect this structure.  
+In the provided notebook, the file path for the CSV file containing the bird bones measurements is:
 
 ```sh
-/kaggle/input/urbansound8k/  
+'/kaggle/input/birds-bones-and-living-habits/bird.csv' 
 ```
-Update the path in your code or notebook as needed.  
+Make sure to update the path in your code or notebook as needed.  
 
 ## Installation and Requirements
 To run this project on your local machine, you will need to install the following dependencies:
@@ -86,11 +83,12 @@ pip install -r requirements.txt
 
 The trained models are saved in the models folder. You can use these models for inference or further fine-tuning. The model files are named as follows:  
 
-knn_model.pkl  
-random_forest_model.pkl  
-decision_tree_model.pkl  
-gradient_boosting_model.pkl  
-svm_model.pkl  
+- knn_model.pkl  
+- random_forest_model.pkl  
+- decision_tree_model.pkl  
+- gradient_boosting_model.pkl  
+- svm_model.pkl
+
 To load a model, use the following code snippet:  
 
 ```python
