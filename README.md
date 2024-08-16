@@ -8,7 +8,14 @@ This project aims to classify birds into six ecological categories based on thei
 - Terrestrial Birds (T)  
 - Raptors (R)  
 - Scansorial Birds (P)  
-- Singing Birds (SO)  
+- Singing Birds (SO)
+
+<p>Below is a plot showing the distribution of samples for each sound class:</p>
+
+<p align="center">
+  <img src="images/bar_plot_no_of_specimens.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
+</p>
+
 
 ## Dataset Description
 The dataset includes 10 continuous measurements (in millimeters) of various bird bones :  
@@ -27,7 +34,13 @@ The dataset includes 10 continuous measurements (in millimeters) of various bird
 
 **1. Handling Missing Values:** The dataset had missing values in several columns. These were filled with the mean of the respective columns.  
 
-**2. Feature Correlation:** A correlation matrix revealed high correlations between some features, particularly between ulnal and huml. To avoid redundancy, we   dropped the following highly correlated features: ulnal, ulnaw, and tibw.  
+**2. Feature Correlation:** A correlation matrix revealed high correlations between some features, particularly between ulnal and huml. To avoid redundancy, we dropped the following highly correlated features: ulnal, ulnaw, and tibw.  
+
+<p>Below is a plot showing the distribution of samples for each sound class:</p>
+
+<p align="center">
+  <img src="images/correlation_heatmap.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
+</p>
 
 **3. Outlier Detection and Removal:** Outliers were identified using the Interquartile Range (IQR) method and were removed to improve model performance.  
 
@@ -95,11 +108,11 @@ To load a model, use the following code snippet:
 import joblib
 
 # Example for loading the KNN model
-model = joblib.load('models/knn_model.pkl')
+model = joblib.load('Models/knn_model.pkl')
 ```
 
 ## Usage
-**1. Data Preprocessing:** The provided Jupyter notebook includes steps for loading and preprocessing the bird bone measurement data. This involves handling missing values, scaling features, and addressing data imbalance.
+**1. Data Preprocessing:** The provided Jupyter notebook includes steps for loading and preprocessing the Birds' Bones and Living Habits Dataset. This involves handling missing values, scaling features, and addressing data imbalance.
 
 **2. Model Training:** The notebook demonstrates how to define, train, and evaluate various machine learning models, including K-Nearest Neighbors, Random Forest, Decision Tree, Gradient Boosting, and Support Vector Machine.
 
