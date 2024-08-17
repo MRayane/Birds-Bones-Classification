@@ -117,6 +117,7 @@ model = joblib.load('Models/knn_model.pkl')
 **2. Model Training:** The notebook demonstrates how to define, train, and evaluate various machine learning models, including K-Nearest Neighbors, Random Forest, Decision Tree, Gradient Boosting, and Support Vector Machine.
 
 **3. Model Evaluation:** The performance of each model is evaluated using metrics such as accuracy, log loss, and AUC score. The notebook includes visualizations of the results with inferencing on unseen data and a summary of the models performances.
+In summary, the `Support Vector Machine` emerges as `the best-performing model overall` for this project, with a combination of high accuracy, low log loss, and the highest AUC score. The K-Nearest Neighbors model is also strong but could benefit from improved prediction confidence. Random Forest and Gradient Boosting offer competitive performances, while the Decision Tree, although simpler, lags behind in accuracy and confidence.
 
 **4. Inference:** You can use the trained models to classify new bird bone measurement data by running the inference section of the notebook.
 
