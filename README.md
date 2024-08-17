@@ -10,7 +10,7 @@ This project aims to classify birds into six ecological categories based on thei
 - Scansorial Birds (P)  
 - Singing Birds (SO)
 
-<p>Below is a plot showing the distribution of samples for each sound class:</p>
+<p>Below is a plot showing the number of Specimens by Ecological Groups:</p>
 
 <p align="center">
   <img src="images/bar_plot_no_of_specimens.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
@@ -36,7 +36,7 @@ The dataset includes 10 continuous measurements (in millimeters) of various bird
 
 **2. Feature Correlation:** A correlation matrix revealed high correlations between some features, particularly between ulnal and huml. To avoid redundancy, we dropped the following highly correlated features: ulnal, ulnaw, and tibw.  
 
-<p>Below is a plot showing the distribution of samples for each sound class:</p>
+<p>Below is a plot showing the correlation matrix heatmap :</p>
 
 <p align="center">
   <img src="images/correlation_heatmap.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 ## Model Files
 
-The trained models are saved in the models folder. You can use these models for inference or further fine-tuning. The model files are named as follows:  
+The trained models are saved in the `Models` folder. You can use these models for inference or further fine-tuning. The model files are named as follows:  
 
 - knn_model.pkl  
 - random_forest_model.pkl  
@@ -116,7 +116,7 @@ model = joblib.load('Models/knn_model.pkl')
 
 **2. Model Training:** The notebook demonstrates how to define, train, and evaluate various machine learning models, including K-Nearest Neighbors, Random Forest, Decision Tree, Gradient Boosting, and Support Vector Machine.
 
-**3. Model Evaluation:** The performance of each model is evaluated using metrics such as accuracy, log loss, and AUC score. The notebook includes visualizations of the results and a summary of the model performances.
+**3. Model Evaluation:** The performance of each model is evaluated using metrics such as accuracy, log loss, and AUC score. The notebook includes visualizations of the results with inferencing on unseen data and a summary of the models performances.
 
 **4. Inference:** You can use the trained models to classify new bird bone measurement data by running the inference section of the notebook.
 
@@ -124,7 +124,7 @@ model = joblib.load('Models/knn_model.pkl')
 
 Rayane Mehires - rayanemehires@gmail.com
 
-Project Link: [GitHub - Urban Sound Classification](https://github.com/MRayane/Urban-Sound-Classification/tree/main).
+Project Link: [GitHub - Birds Bones Classification](https://github.com/MRayane/Birds-Bones-Classification/tree/main).
 
 ## Thank you
   
