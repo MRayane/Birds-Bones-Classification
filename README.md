@@ -22,8 +22,9 @@ This project aims to classify birds into six ecological categories based on thei
 
 <p align="center">
   <img src="images/bar_plot_no_of_specimens.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
+  <br>
+  <em>Figure 2: number of Specimens by Ecological Groups</em>
 </p>
-
 
 ## Dataset Description
 The dataset includes 10 continuous measurements (in millimeters) of various bird bones :  
@@ -48,6 +49,8 @@ The dataset includes 10 continuous measurements (in millimeters) of various bird
 
 <p align="center">
   <img src="images/correlation_heatmap.png" alt="Sound Class Distribution" style="max-width: 20%; height: auto;">
+    <br>
+  <em>Figure 3: correlation matrix heatmap</em>
 </p>
 
 **3. Outlier Detection and Removal:** Outliers were identified using the Interquartile Range (IQR) method and were removed to improve model performance.  
