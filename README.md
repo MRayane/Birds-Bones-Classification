@@ -1,5 +1,13 @@
 # Birds Bones Classification
 
+This project focuses on classifying birds based on the measurements of their bones. Below is an anatomical diagram of a pigeon skeleton, where the bones that were analyzed in this study are highlighted in yellow.
+
+<p align="center">
+  <img src="images/downloadgit.jpeg" alt="Pigeon Skeleton with Highlighted Bones" width="500">
+  <br>
+  <em>Figure 1: Pigeon Skeleton with Highlighted Bones</em>
+</p>
+
 ## Project Overview
 This project aims to classify birds into six ecological categories based on their bone measurements using machine learning models. The dataset consists of 420 bird specimens, each belonging to one of the following categories:
 
