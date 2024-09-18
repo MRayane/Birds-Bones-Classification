@@ -1,6 +1,6 @@
 # Birds Bones Classification
 
-This project focuses on classifying birds based on the measurements of their bones. Below is an anatomical diagram of a pigeon skeleton, where the bones that were analyzed in this study are highlighted in yellow.
+Below is an anatomical diagram of a pigeon skeleton, where the bones that were analyzed in this study are highlighted in yellow.
 
 <p align="center">
   <img src="images/downloadgit.jpeg" alt="Pigeon Skeleton with Highlighted Bones" width="500">
